@@ -14,11 +14,10 @@ function Log(){
         window.location.href="user.html";
     }
 }
+
 const Login=document.getElementById("Loginbtn");
 Login.addEventListener("click", (e) => {
     e.preventDefault();
     Log();
 });
-
-
 
